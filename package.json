@@ -1,0 +1,16 @@
+{
+  "name": "uv-vis-double-beam-sim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Korean educational 3D UV-vis double-beam spectrophotometer simulation",
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node test-model.mjs"
+  },
+  "dependencies": {
+    "three": "0.183.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}
